@@ -1,0 +1,39 @@
+{
+    "name": "CreteEmu",
+    "ports": [
+        {
+            "name":"uart0",
+            "io": "telnet",
+            "ip": "10.1.70.160",
+            "port": "6665",
+            "endStr": "shell_scp",
+            "timeOut": 20
+        },
+        {
+            "name":"uart1",
+            "io": "telnet",
+            "ip": "10.1.70.160",
+            "port": "6666",
+            "endStr": "shell_vpe",
+            "timeOut": 20
+        },
+        {
+            "name":"uart2",
+            "io": "telnet",
+            "ip": "10.1.70.160",
+            "port": "6667",
+            "endStr": "shell_rpe",
+            "timeOut": 20
+        },        
+        {
+            "name":"PC0",
+            "io": "ssh",
+            "ip": "10.21.188.86",
+            "port": "22",
+            "sshname": "Adolf.Li",
+            "sshpwd": "qwe123!@#",
+            "endStr": "shell",
+            "timeOut": 20
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Host",
+    "ports": [
+        {
+            "name": "PC0",
+            "io": "ssh",
+            "ip": "10.21.188.86",
+            "port": "22",
+            "sshname": "Adolf.Li",
+            "sshpwd": "qwe123!@#",
+            "endStr": "$",
+            "timeOut": 20
+        }
+    ]
+}
